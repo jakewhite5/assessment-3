@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>BUY MORE STUFF!!</title>
+    <script src='scripts.js'></script>
+    <link rel='stylesheet' href="styles.css">
+</head>
+
+<body id='main-background'>
+    <div id='main-body'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">BUYMO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="kitchen.html">Kitchen</a>
+                <a class="nav-item nav-link active" href="appliances.html">Appliances</a>
+                <a class="nav-item nav-link" href="gaming.html">Gaming</a>
+                <a class="nav-item nav-link" href="checkout.html">Checkout</a>
+              </div>
+            </div>
+          </nav>
+        <h3 class='page-header'> Explore our incredible selection of appliances!</h3>
+        <div class='store-page'>
+            <table class='store-table'>
+                <tr>
+                    <td class='table-support'>Washonator</td>
+                    <td class='table-support'>Washomatic 5000</td>
+                    <td class='table-support'>Pyromancer</td>
+                    <td class='table-support'>Blade Tornado</td>
+                </tr>
+                <tr>
+                    <td> <img src= https://images.thdstatic.com/productImages/8884f130-2ef0-4229-9f52-b889e545008d/svn/white-samsung-front-load-washers-wf45t6000aw-64_600.jpg alt='washing machine' height=200px> </td>
+                    <td> <img src= https://s.yimg.com/aah/usappliance/edsh4944as-electrolux-24-built-in-top-control-dishwasher-stainless-steel-4.jpg alt='dishwasher' height=200px> </td>
+                    <td> <img src= https://www.thespruce.com/thmb/chpsf1xAiW1eW-hDWQTBBSe7Pjw=/1000x750/smart/filters:no_upscale()/SamsungNX58R5601SS-7c085f060046411e9c867583ffab5276.jpg alt='stove' height=200px> </td>
+                    <td> <img src= https://royaldesign.com/images/6c70c016-6a4d-423a-9dbf-0174efef46a9?w=800&quality=80 alt= 'blender' height=200px></td>
+                </tr>
+                <tr>
+                    <td class='table-support'>$800</td>
+                    <td class='table-support'>$400</td>
+                    <td class='table-support'>$1200</td>
+                    <td class='table-support'>$200</td>
+
+                </tr>
+                <tr>
+                    <td class='buy-button'><button type="button" onclick="addToCart('Washonator_800')" class="btn btn-primary">Add to cart!</button> </td>
+                    <td class='buy-button'><button type="button" onclick="addToCart('Washomatic_400')" class="btn btn-primary">Add to cart!</button> </td>
+                    <td class='buy-button'><button type="button" onclick="addToCart('Pyromancer_1200')" class="btn btn-primary">Add to cart!</button> </td>
+                    <td class='buy-button'><button type="button" onclick="addToCart('Blade Tornado_800')" class="btn btn-primary">Add to cart!</button> </td>
+
+                </tr>
+        </div>
+    </div>
+
+</body>
+
+</html>

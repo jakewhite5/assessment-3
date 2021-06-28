@@ -1,0 +1,51 @@
+#main-background {
+    display: flex;
+    justify-content: center;
+    background-color: papayawhip;
+
+}
+
+#welcome {
+text-align: center;
+}
+
+#main-splash {
+display: flex;
+justify-content: center;
+}
+
+.bottom-nav {
+    margin-left: 21% ;
+    color: black;
+}
+
+#main-body {
+    background-color: #f8f9fa;
+    width: 80%;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.store-page {
+display: flex;
+justify-content: center;
+}
+
+.buy-button {
+text-align: center;
+}
+
+.table-support {
+    text-align: center;
+    }
+
+.page-header {
+padding-bottom: 20px;
+}
+
+#summary-div {
+    display: flex;
+    text-align: center;
+}
